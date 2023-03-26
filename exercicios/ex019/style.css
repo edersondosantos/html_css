@@ -1,0 +1,38 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family= Kaushan + Script & display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    background-color: bisque;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive, verdana, sans-serif;
+    background-color: rgb(208, 171, 24);
+}
+
+#principal{
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+
+h2{
+    background-color: rgba(80, 154, 129, 0.529);
+}
+
+.basico{
+    color: red;
+}
+
+.intermediario{
+    color: orangered;
+}
+
+.avançado{
+    color: brown;
+}

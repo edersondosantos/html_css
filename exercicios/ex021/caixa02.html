@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: lightgray;
+        }
+
+        nav{
+            background-color: lightslategray;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.509);
+        }
+
+        a{
+            margin: 5px;
+            text-decoration: none;
+        }
+
+        main{
+            background-color: lightgray;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article{
+            background-color: rgba(120, 118, 118, 0.579);
+            padding: 10px;
+        }
+
+        article > aside{
+            background-color: rgba(88, 88, 95, 0.626);
+        }
+
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 2px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Noticias</a>
+            <a href="#">Artigo</a>
+            <a href="#">Histórico</a>
+            <a href="#">Biblioteca</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Esporte Política e Tecnológia</p>
+        </section>
+        <section id="assuntos">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nihil consequuntur nemo dignissimos esse ipsam earum similique dolore magnam officiis perspiciatis consectetur possimus, aut commodi eligendi ratione deleniti accusamus vero?</p>
+                <aside>
+                    <p>Artigo escrito por ...</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site criado por ...</p>
+    </footer>
+</body>
+</html>
